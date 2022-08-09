@@ -23,6 +23,8 @@ export const RubriqueEdit = (props: any) => (
           { id: 1, name: 'Positif' },
           { id: 2, name: 'Negatif' },
         ]} optionValue="name" />
+        <TextInput source="rang_primaire" />
+        <TextInput source="rang_secondaire" />
         <SelectInput source="secteur" choices={[
           { id: 1, name: 'Secteur Public' },
           { id: 2, name: 'Secteur Reel' },

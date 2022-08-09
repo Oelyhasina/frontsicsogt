@@ -11,6 +11,7 @@ import {
     SelectInput,
     ReferenceInput,
     NumberField,
+    BooleanInput,
   } from 'react-admin';
   
 
@@ -21,6 +22,7 @@ export const PeriodeCreate = (props: any) => (
           <SelectInput optionText="codage_exercice" label="Exercice" fullWidth/>
         </ReferenceInput>
         <TextInput source="version" />
+        <BooleanInput source="is_published" />
         <TextInput source="description" />
       </SimpleForm>
     </Create>

@@ -17,6 +17,7 @@ import {
     CreateButton,
     Pagination,
     Filter,
+    BooleanField,
   } from 'react-admin';
 //import { Stack } from '@mui/material';
 //import { ListActions } from './listActions';
@@ -31,6 +32,7 @@ export const PeriodeList = (props: any) => (
         </ReferenceField>
         <TextField source="version" />
         <TextField source="periode" />
+        <BooleanField source="is_published"/>
         <TextField source="description" />
         <EditButton />
       </Datagrid>

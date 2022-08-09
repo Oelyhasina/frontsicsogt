@@ -33,6 +33,8 @@ export const RubriqueList = (props: any) => (
         <TextField source="libelle" />
         <TextField source="abrev" />
         <TextField source="signe" />
+        <TextField source="rang_primaire" />
+        <TextField source="rang_secondaire" />
         <TextField source="secteur" />
         <ReferenceField source="categorieId" reference="categorie">
           <TextField source="intitule" />

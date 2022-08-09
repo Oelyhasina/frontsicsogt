@@ -24,6 +24,8 @@ export const RubriqueCreate = (props: any) => (
           { id: 1, name: 'Positif' },
           { id: 2, name: 'Negatif' },
         ]} optionValue="name" />
+        <TextInput source="rang_primaire" defaultValue={null}/>
+        <TextInput source="rang_secondaire" defaultValue={null}/>
         <SelectInput source="secteur" choices={[
           { id: 1, name: 'Secteur Public' },
           { id: 2, name: 'Secteur Reel' },
